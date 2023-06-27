@@ -5,9 +5,9 @@
 ### 安装依赖
 
 ```
-npm install @devops/vue-tree
+npm install @cw-devops/vue-tree
 // or 
-yarn install @devops/vue-tree
+yarn install @cw-devops/vue-tree
 ```
 
 > ps: example 目录为实例目录
@@ -21,8 +21,8 @@ yarn install @devops/vue-tree
 <vue-tree :data="data" :props="defaultProps" @node-click="handleNodeClick"></vue-tree>
 
 <script>
-  import VueTree from "@devops/vue-tree"
-  import "@devops/vue-tree/dist/vue-tree.css"
+  import VueTree from "@cw-devops/vue-tree"
+  import "@cw-devops/vue-tree/dist/vue-tree.css"
 
   export default {
     components: { VueTree },
